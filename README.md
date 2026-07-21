@@ -49,13 +49,13 @@ Output: pickle files in the format `{"embeddings": {sequence_id: np.ndarray}}`, 
 
 ```bash
 python scripts/extract_prott5_mean_embeddings.py \
-  --fasta data/training_data_with_ID.fasta \
+  --fasta data/training.fasta \
   --output data/train_prott5_mean_embeddings_ECM.pkl \
   --device cuda \
   --fp16
 
 python scripts/extract_prott5_mean_embeddings.py \
-  --fasta data/testing_data_with_ID.fasta \
+  --fasta data/testing.fasta \
   --output data/test_prott5_mean_embeddings_ECM.pkl \
   --device cuda \
   --fp16
@@ -107,4 +107,4 @@ python scripts/evaluate_predictions.py \
   --out_csv results/inference_metrics.csv
 ```
 
-Small FASTA subsets for command and format checks are available in `examples/`. Generated embeddings, new checkpoints, and result files are excluded by `.gitignore`, except for the packaged best model.
+Small FASTA subsets for command and format checks are available in `examples/`. 
