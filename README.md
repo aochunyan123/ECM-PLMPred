@@ -7,7 +7,7 @@ Extracellular matrix (ECM) proteins are essential components of tissue architect
 
 ## Environment
 
-Python 3.10 or later is recommended. The main dependencies are:
+The framework was developed and tested under the following environment:
 
 - numpy >= 1.23
 - pandas >= 1.5
