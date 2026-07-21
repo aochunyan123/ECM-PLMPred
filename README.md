@@ -64,7 +64,7 @@ python scripts/extract_prott5_mean_embeddings.py \
 
 Proteins longer than the configured chunk length are processed in chunks and pooled over the complete sequence. Repeated `NO_ENTRY` identifiers are retained using stable `__dupN` suffixes so that no FASTA record is overwritten.
 
-### 2. Train the MLP model
+### 2. Train the model
 
 ```bash
 python scripts/train_mlp.py \
