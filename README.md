@@ -2,7 +2,6 @@
 
 Extracellular matrix (ECM) proteins are essential components of tissue architecture and participate in cell adhesion, signaling, development, and disease. Here, we provide **ECM-PLMPred**, a computational framework that combines mean-pooled ProtT5 protein language model embeddings with a multilayer perceptron (MLP) classifier for ECM protein prediction.
 
-The repository contains the training and independent test FASTA files, ProtT5 feature extraction code, MLP training code, a saved best model, and scripts for prediction and evaluation.
 
 ---
 
