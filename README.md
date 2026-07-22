@@ -82,11 +82,6 @@ The training script performs stratified five-fold cross-validation, saves the be
 
 ### 3. Predict with the packaged best model
 
-The repository includes the saved checkpoint:
-
-```text
-models/ProtT5_mean_best_overall.pt
-```
 
 Run inference after generating the test ProtT5 mean embeddings:
 
